@@ -1,0 +1,17 @@
+# Ignore the Virtual Environment (Huge folder)
+env_SSAD/
+venv/
+__pycache__/
+*.pyc
+
+# Ignore the AI Model (Too big for GitHub)
+models/
+*.gguf
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore local compiled files (from the C++ build)
+build/
+dist/
+*.spec
